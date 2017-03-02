@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+  _____        _               _         _
+ / ____|      | |             | |       | |
+| |      __ _ | |  ___  _   _ | |  __ _ | |_  ___   _ __
+| |     / _` || | / __|| | | || | / _` || __|/ _ \ | '__|
+| |____| (_| || || (__ | |_| || || (_| || |_| (_) || |
+ \_____|\__,_||_| \___| \__,_||_| \__,_| \__|\___/ |_|
+
+
+ _____  _                 _  __       _  _  _
+|_   _|| |               | |/ /      | |(_)| |
+  | |  | | _   _   __ _  | ' / _   _ | | _ | | __ ___ __   __
+  | |  | || | | | / _` | |  < | | | || || || |/ // _ \\ \ / /
+ _| |_ | || |_| || (_| | | . \| |_| || || ||   <| (_) |\ V /
+|_____||_| \__, | \__,_| |_|\_\\__,_||_||_||_|\_\\___/  \_/
+ -->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <div class="background">
+        <!-- Main background -->
+        <div class="calculator">
+          <div class="result"></div>
+
+          <div class="main">
+              <div class="first-rows">
+                  <button class="del-bg delete">Del</button>
+                  <button value="%" class="btn-style2 operator opera-bg fall-back">%</button>
+                  <button value="+" class="btn-style2 opera-bg value align operator">+</button>
+              </div>
+
+              <div class="rows">
+                  <button value="7" class="btn-style num-bg num">7</button>
+                  <button value="8" class="btn-style num-bg num">8</button>
+                  <button value="9" class="btn-style num-bg num">9</button>
+                  <button value="-" class="btn-style opera-bg operator">-</button>
+              </div>
+
+              <div class="rows">
+                  <button value="4" class="btn-style num-bg num">4</button>
+                  <button value="5" class="btn-style num-bg num">5</button>
+                  <button value="6" class="btn-style num-bg num">6</button>
+                  <button value="*" class="btn-style opera-bg operator">x</button>
+              </div>
+
+              <div class="rows">
+                  <button value="1" class="btn-style num-bg num">1</button>
+                  <button value="2" class="btn-style num-bg num">2</button>
+                  <button value="3" class="btn-style num-bg num">3</button>
+                  <button value="/" class="btn-style opera-bg operator">/</button>
+              </div>
+
+              <div class="rows">
+                  <button value="0" class="num-bg zero num">0</button>
+                  <button value="." class="btn-style2 num-bg period fall-back">.</button>
+                  <button value="=" class="eqn-bg eqn">=</button>
+              </div>
+
+          </div>
+
+      </div>
+    </div>
+
+</body>
+
+</html>
